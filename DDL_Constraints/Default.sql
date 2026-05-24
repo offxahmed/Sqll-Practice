@@ -1,0 +1,5 @@
+CREATE TABLE Ticket (
+    ticket_id INTEGER NOT NULL PRIMARY KEY ,
+    name VARCHAR (50) NOT NULL,
+    travel_date DATETIME DEFAULT CURRENT_TIMESTAMP 
+    )
